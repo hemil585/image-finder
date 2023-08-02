@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Search App</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/04a138b142.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
     <h1>Image Search App</h1>
     <form>
-        <input type="text" id="search-input" placeholder="Search for images...">
-        <button id="search-btn">Search</button>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search for images...">
+            <i class="fa-solid fa-magnifying-glass search-icon" id="search-btn"></i>
+        </div>
     </form>
     <div class="search-results">
-          <div class="search-result">
+        <div class="search-result">
 
-        </div> 
+        </div>
     </div>
     <button id="show-more">Show More</button>
-    
+
     <script src="/app.js"></script>
 </body>
+
 </html>
